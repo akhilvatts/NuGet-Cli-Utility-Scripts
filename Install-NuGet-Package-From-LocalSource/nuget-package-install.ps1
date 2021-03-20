@@ -1,0 +1,1 @@
+.\nuget.exe install <some-package> -ConfigFile .\nuget.config -OutputDirectory <output-directory> -version <package-version>
