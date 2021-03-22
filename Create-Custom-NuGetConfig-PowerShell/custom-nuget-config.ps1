@@ -16,7 +16,6 @@ $xmlWriter.WriteStartElement("packageSources") # <-- Start <packageSources>
 $XmlWriter.WriteStartElement('add')
 $XmlWriter.WriteAttributeString('key', 'LocalSource')
 $XmlWriter.WriteAttributeString('value', 'D:\this-is-some-optional-directory\some-path')
-$XmlWriter.WriteAttributeString('protocolVersion', '3')
 $xmlWriter.WriteEndElement()
 $xmlWriter.WriteEndElement()
 $xmlWriter.WriteStartElement("disabledPackageSources") # <-- Start <packageSources>
